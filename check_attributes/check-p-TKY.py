@@ -10,7 +10,8 @@ def find_nearest_lat_lon(latitude, longitude, latitudes, longitudes):
     return min_idx
 
 # Replace 'MIPAS-E_IMK.201201.V8R_O3_761.nc' with your actual file path
-file_path = 'MIPAS-E_IMK.201201.V8R_O3_761.nc'
+#file_path = 'MIPAS-E_IMK.201201.V8R_O3_761.nc' # 761: 7 stands for noctilucent cloud
+file_path = 'MIPAS-E_IMK.201201.V8R_O3_561.nc'
 
 # Open the netCDF file
 dataset = nc.Dataset(file_path, 'r')
